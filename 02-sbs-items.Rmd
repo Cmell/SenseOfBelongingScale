@@ -1,0 +1,84 @@
+# Global-Trait Form {#global-trait}
+
+This page contains the 16 items of the SBS in their global-trait form, as well as some descriptive information for them. The SBS-8 is comprised of the first 8 items listed in the Table \@ref(tab:global-trait-items). Because the scale was validated under a 1-factor model, we recommend administering the scale on a 5 or 7 point Likert-type scale and averaging item responses to derive a total score. In the validation studies, we used this scale for all forms:
+
+- Strongly disagree
+- Somewhat disagree
+- Neither agree nor disagree
+- Somewhat agree
+- Strongly agree
+
+The scale items were preceded by the following instructions:
+
+> When you think **about your life,** to what extent do you feel **a general sense of belonging and fitting in?**
+
+> Please answer the questions below to help us understand how you feel.
+
+Table \@ref(tab:global-trait-items) below contains all items in their global form.
+
+```{r}
+sbs16Tbl <- read_csv(
+  "./EFAItemsInOrderV01.csv"
+) %>% 
+  filter(
+    number %in% c(1, 4, 5, 11, 14, 21, 27, 31, 34, 39, 42, 43, 44, 50, 53, 54)
+  ) %>% 
+  rename(
+    Item = item,
+    `Wording Direction` = wording_direction,
+    `Belongingness Facet` = intended_aspect
+  ) %>% 
+  select(
+    Item, `Wording Direction`, `Belongingness Facet`
+  ) %>% 
+  mutate(
+    Item = factor(
+      Item,
+      levels = c(
+        "In general, I feel a sense of belonging.",
+        "I don't really feel accepted.",
+        "Overall, I feel valued by others.", 
+        "I feel disregarded.",
+        "I feel like I fit in.",
+        "I feel like I don’t really fit in with others.",
+        "I feel connected with others.",
+        "I feel so distant from others.",
+        "Overall, I feel accepted by others.",
+        "I don’t really feel like I belong anywhere.",
+        "I feel appreciated.",
+        "I don’t really feel valued for who I am.",
+        "I feel at home in the world.",
+        "I feel like a piece of a jig-saw puzzle that doesn’t fit into the puzzle.",
+        "In general, I feel welcome.",
+        "I feel disconnected from the world around me."
+      )
+    )
+  ) %>% 
+  arrange(Item) %>% 
+  mutate(
+    `Item Number` = 1:16,
+  ) %>% 
+  relocate(`Item Number`)
+```
+
+```{r global-trait-items}
+sbs16Tbl %>% 
+  flextable() %>% 
+  hline(i = 8) %>% 
+  add_footer_lines(
+    c(
+      'Items 1-8, shown in the top half of the table, comprise the 8-item version. The "full" scale is comprised of all 16 items.'
+    )
+  ) %>% 
+  width(j = "Item", width = 3) %>% 
+  set_caption(
+    caption = "SBS-8 & SBS-16 items in the global-trait form.",
+    autonum = run_autonum(seq_id = "tab", bkm = "global-trait-items")
+  )
+```
+
+In Qualtrics, the survey appeared as in Figure \@ref(fig:qualtrics-preview-global-trait).
+
+```{r qualtrics-preview-global-trait, fig.cap="Preview of the first four items as they appeared in Qualtrics for the global trait form.", out.width="600px"}
+knitr::include_graphics(rep("graphics/GlobalTraitPreview.png"))
+```

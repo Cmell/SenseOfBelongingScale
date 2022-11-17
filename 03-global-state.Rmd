@@ -1,0 +1,47 @@
+# Global-State Form
+
+The items for the global state form of the scale are modified to include the timeframe for the desired measurement. In our validation studies, we asked participants about the past two weeks, as shown in Table \@ref(tab:global-state-items). They were preceeded by these instructions:
+
+> When you **think about your life at this moment,** to what extent do you feel **a general sense of belonging and fitting in?**
+
+> **Think back over the past two weeks** and answer the questions below based **just on your feelings over the past two weeks.**
+
+This timeframe is, in theory, flexible. For example, one could phrase the scale to ask about the past 30 minutes. This feature might be useful for assessing belonging after an experimental manipulation or a program session.
+
+The response scale was the same as for the global trait items in Section \@ref(global-trait).
+
+```{r global-state-items}
+tibble(
+  `Item Number` = 1:16,
+  Item = c(
+    "In the past two weeks, I felt a sense of belonging.",
+    "In the past two weeks, I didn't really feel accepted.",
+    "In the past two weeks, I felt valued by others.", 
+    "In the past two weeks, I felt disregarded.",
+    "In the past two weeks, I felt like I fit in.",
+    "In the past two weeks, I felt like I don’t really fit in with others.",
+    "In the past two weeks, I felt connected with others.",
+    "In the past two weeks, I felt so distant from others.",
+    "In the past two weeks, I felt accepted by others.",
+    "In the past two weeks, I didn’t really feel like I belonged anywhere.",
+    "In the past two weeks, I felt appreciated.",
+    "In the past two weeks, I didn’t really feel valued for who I am.",
+    "In the past two weeks, I felt at home in the world.",
+    "In the past two weeks, I felt like a piece of a jig-saw puzzle that doesn’t fit into the puzzle.",
+    "In the past two weeks, I felt welcome.",
+    "In the past two weeks, I felt disconnected from the world around me."
+  )
+) %>% 
+  flextable() %>% 
+  hline(i = 8) %>% 
+  add_footer_lines(
+    c(
+      'Items 1-8, shown in the top half of the table, comprise the 8-item version. The "full" scale is comprised of all 16 items.'
+    )
+  ) %>% 
+  width(j = "Item", width = 4) %>% 
+  set_caption(
+    caption = "SBS-8 & SBS-16 items in the global-state form.",
+    autonum = run_autonum(seq_id = "tab", bkm = "global-state-items")
+  )
+```

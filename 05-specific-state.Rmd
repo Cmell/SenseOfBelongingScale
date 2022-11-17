@@ -1,0 +1,47 @@
+# Specific State Form
+
+This form of the scale requires a *specific* identity and a constrained timeframe for the *state* measurement. Both elements can be adapated as necessary.
+
+> When you think about being a **student at the University of XXX at this moment,** to what extent do you feel a sense of belonging and fitting in?
+
+> **Think back over the past two weeks** and answer the questions below based on your feelings about being a **student at XXX over just the past two weeks.**
+
+Note the reference to their *specific* identity and the unbounded *trait* timeframe.
+
+The response scale was the same as for the global trait items in Section \@ref(global-trait).
+
+```{r specific-state-items}
+tibble(
+  `Item Number` = 1:16,
+  Item = c(
+    "In the past two weeks, as a student at XXX, I felt a sense of belonging.",
+    "In the past two weeks, as a student at XXX, I didn't really feel accepted.",
+    "In the past two weeks, I felt valued by other students at XXX", 
+    "In the past two weeks, as a student at XXX, I felt disregarded.",
+    "As a student at XXX, I felt like I fit in.",
+    "In the past two weeks, I felt like I didn’t really fit in with other students at XXX",
+    "In the past two weeks, I felt connected with other students at XXX.",
+    "In the past two weeks, I felt so distant from other students at XXX.",
+    "In the past two weeks, as a student at XXX I felt accepted by others.",
+    "In the past two weeks, as a student at XXX, I didn’t really feel like I belonged anywhere.",
+    "In the past two weeks, as a student at XXX, I felt appreciated.",
+    "In the past two weeks, as a student at XXX, I didn’t really feel valued for who I am.",
+    "In the past two weeks, I felt at home as a student at XXX.",
+    "In the past two weeks, as a student at XXX, I felt like a piece of a jig-saw puzzle that doesn’t fit into the puzzle.",
+    "In the past two weeks, as a student at XXX, I felt welcome.",
+    "In the past two weeks, I felt disconnected from students at XXX."
+  )
+) %>% 
+  flextable() %>% 
+  hline(i = 8) %>% 
+  add_footer_lines(
+    c(
+      'Items 1-8, shown in the top half of the table, comprise the 8-item version. The "full" scale is comprised of all 16 items.'
+    )
+  ) %>% 
+  width(j = "Item", width = 4) %>% 
+  set_caption(
+    caption = "SBS-8 & SBS-16 items in the specific-trait form.",
+    autonum = run_autonum(seq_id = "tab", bkm = "specific-trait-items")
+  )
+```

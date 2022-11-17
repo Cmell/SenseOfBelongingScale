@@ -1,0 +1,61 @@
+﻿item,number,wording_direction,intended_aspect,original
+"Overall, I feel accepted by others.",1,positive,accepted,TRUE
+I generally feel that people accept me.,2,positive,accepted,FALSE
+Others like me the way I am.,3,positive,accepted,FALSE
+"In general, I feel welcome.",4,positive,accepted,FALSE
+"In general, I feel a sense of belonging.",5,positive,accepted,TRUE
+I feel that I belong to a community.,6,positive,accepted,FALSE
+"Whether things are going well or not, I feel that I belong.",7,positive,accepted,FALSE
+I feel that I can really be myself around others.,8,positive,accepted,FALSE
+I am comfortable being my genuine self. ,9,positive,accepted,FALSE
+I feel comfortable in my social world. ,10,positive,accepted,FALSE
+I don’t really feel like I belong anywhere.,11,negative,accepted,TRUE
+I don’t feel that I participate with others.,12,negative,accepted,FALSE
+I feel like I have no place in this world.,13,negative,accepted,FALSE
+I don't really feel accepted.,14,negative,accepted,FALSE
+"Even around people I know, I don’t feel that I really belong.",15,negative,accepted,FALSE
+I feel ‘out of place’ in the world.,16,negative,accepted,FALSE
+I feel like an outsider compared to others.,17,negative,accepted,TRUE
+I have no sense of togetherness with others.,18,negative,accepted,FALSE
+"When I am with other people, I feel like a stranger.",19,negative,accepted,FALSE
+I feel alienated from the world.,20,negative,accepted,FALSE
+"Overall, I feel valued by others.",21,positive,valued,TRUE
+People notice when I'm good at something.,22,positive,valued,FALSE
+Others take my opinions seriously.,23,positive,valued,FALSE
+People know I can do good work.,24,positive,valued,FALSE
+I feel respected.,25,positive,valued,FALSE
+I am treated with as much respect as others.,26,positive,valued,FALSE
+I feel appreciated.,27,positive,valued,FALSE
+"In general, I have a sense of being needed.",28,positive,valued,TRUE
+I don’t think I really matter much.,29,negative,valued,TRUE
+I feel as if people do not care about me.,30,negative,valued,FALSE
+I feel disregarded.,31,negative,valued,FALSE
+I don't feel that others value my contributions.,32,negative,valued,FALSE
+Others tend not to reach out to me for help.,33,negative,valued,FALSE
+I don’t really feel valued for who I am.,34,negative,valued,TRUE
+I don’t feel that what I have to offer is valued.,35,negative,valued,FALSE
+I feel that I am not important to others.,36,negative,valued,FALSE
+I feel that I fit in well with others around me.,37,positive,fit,TRUE
+I have a place at the table with others.,38,positive,fit,FALSE
+I feel like I fit in.,39,positive,fit,FALSE
+I feel that I am similar to others around me.,40,positive,fit,TRUE
+I find it easy to relate to others.,41,positive,fit,FALSE
+I feel at home in the world.,42,positive,fit,FALSE
+I feel like I don’t really fit in with others.,43,negative,fit,TRUE
+I feel like a piece of a jig-saw puzzle that doesn’t fit into the puzzle.,44,negative,fit,FALSE
+I can't think of any place in the world where I really feel at home.,45,negative,fit,FALSE
+I feel like I am different from others.,46,negative,fit,TRUE
+I feel that my background and experiences are very different from those around me.,47,negative,fit,FALSE
+I would describe myself as someone who doesn't fit in most social situations.,48,negative,fit,FALSE
+I have close bonds with others.,49,positive,connected/included,FALSE
+I feel connected with others.,50,positive,connected/included,FALSE
+I feel that I can share my thoughts and feeling with others.,51,positive,connected/included,FALSE
+I feel that at least a few people really know me.,52,positive,connected/included,FALSE
+I feel disconnected from the world around me.,53,negative,connected/included,FALSE
+I feel so distant from others.,54,negative,connected/included,FALSE
+I don't have a strong sense of connectedness with others.,55,negative,connected/included,FALSE
+I don’t feel connected to anyone.,56,negative,connected/included,FALSE
+I am included in activities by others.,57,positive,connected/included,FALSE
+"When I am with other people, I feel included.",58,positive,connected/included,FALSE
+I feel left out of things.,59,negative,connected/included,FALSE
+I feel excluded.,60,negative,connected/included,FALSE

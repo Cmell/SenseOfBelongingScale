@@ -1,0 +1,47 @@
+# Specific Trait Form
+
+The items for any specific form of the scale will be tailored for the identity or context in question. We validated the scale for a university student identity. The instructions were:
+
+> Think about **your entire college career.** When you think about **your time as a student at the University of XXX,** to what extent do you feel **a sense of belonging and fitting in? **
+ 
+> Please answer the questions below to help us understand how you feel.
+
+Note the reference to their *specific* identity and the unbounded *trait* timeframe.
+
+The response scale was the same as for the global trait items in Section \@ref(global-trait).
+
+```{r specific-trait-items}
+tibble(
+  `Item Number` = 1:16,
+  Item = c(
+    "In general, as a student at XXX, I feel a sense of belonging.",
+    "As a student at XXX, I don't really feel accepted.",
+    "Overall, I feel valued by other students at XXX", 
+    "As a student at XXX, I feel disregarded.",
+    "As a student at XXX, I feel like I fit in.",
+    "I feel like I don’t really fit in with other students at XXX",
+    "I feel connected with other students at XXX.",
+    "I feel so distant from other students at XXX.",
+    "Overall, as a student at XXX I feel accepted by others.",
+    "As a student at XXX, I don’t really feel like I belong anywhere.",
+    "As a student at XXX, I feel appreciated.",
+    "As a student at XXX, I don’t really feel valued for who I am.",
+    "I feel at home as a student at XXX.",
+    "As a student at XXX, I feel like a piece of a jig-saw puzzle that doesn’t fit into the puzzle.",
+    "In general, as a student at XXX, I feel welcome.",
+    "I feel disconnected from students at XXX."
+  )
+) %>% 
+  flextable() %>% 
+  hline(i = 8) %>% 
+  add_footer_lines(
+    c(
+      'Items 1-8, shown in the top half of the table, comprise the 8-item version. The "full" scale is comprised of all 16 items.'
+    )
+  ) %>% 
+  width(j = "Item", width = 4) %>% 
+  set_caption(
+    caption = "SBS-8 & SBS-16 items in the specific-trait form.",
+    autonum = run_autonum(seq_id = "tab", bkm = "specific-trait-items")
+  )
+```
