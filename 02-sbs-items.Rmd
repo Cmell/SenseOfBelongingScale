@@ -32,6 +32,10 @@ sbs16Tbl <- read_csv(
     Item, `Wording Direction`, `Belongingness Facet`
   ) %>% 
   mutate(
+    `Belongingness Facet` = case_when(
+      Item=="In general, I feel welcome." ~ "connected/included",
+      TRUE ~ `Belongingness Facet`
+    ),
     Item = factor(
       Item,
       levels = c(
@@ -77,8 +81,8 @@ sbs16Tbl %>%
   )
 ```
 
-In Qualtrics, the survey appeared as in Figure \@ref(fig:qualtrics-preview-global-trait).
+In Qualtrics, the survey appeared as in Figure \@ref(fig:qualtrics-preview-global-trait). **Note** that each set of 8 items was presented in a random order.
 
-```{r qualtrics-preview-global-trait, fig.cap="Preview of the first four items as they appeared in Qualtrics for the global trait form.", out.width="600px"}
+```{r qualtrics-preview-global-trait, fig.cap="Preview of the first four items as they appeared in Qualtrics for the global trait form. On the real survey, items were presented in a random order.", out.width="600px"}
 knitr::include_graphics(rep("graphics/GlobalTraitPreview.png"))
 ```

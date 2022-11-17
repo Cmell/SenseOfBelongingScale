@@ -6,7 +6,7 @@ This form of the scale requires a *specific* identity and a constrained timefram
 
 > **Think back over the past two weeks** and answer the questions below based on your feelings about being a **student at XXX over just the past two weeks.**
 
-Note the reference to their *specific* identity and the unbounded *trait* timeframe.
+Note the reference to their *specific* identity and the bounded *state* timeframe.
 
 The response scale was the same as for the global trait items in Section \@ref(global-trait).
 
@@ -18,7 +18,7 @@ tibble(
     "In the past two weeks, as a student at XXX, I didn't really feel accepted.",
     "In the past two weeks, I felt valued by other students at XXX", 
     "In the past two weeks, as a student at XXX, I felt disregarded.",
-    "As a student at XXX, I felt like I fit in.",
+    "In the past two weeks, as a student at XXX, I felt like I fit in.",
     "In the past two weeks, I felt like I didn’t really fit in with other students at XXX",
     "In the past two weeks, I felt connected with other students at XXX.",
     "In the past two weeks, I felt so distant from other students at XXX.",

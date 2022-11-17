@@ -1,6 +1,6 @@
 --- 
 title: "The Sense of Belonging Scale"
-date: "`r Sys.Date()`"
+date: "Updated on `r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 link-citations: yes
@@ -19,10 +19,10 @@ knitr::opts_chunk$set(
 
 # The Sense of Belonging Scale
 
-The Sense of Belonging Scale (SBS) integrates theory and items from the social psychological literature. The scale was examined for internal consistency and initial evidence of validity across three studies. These will be reported in forthcoming manuscript.
+The Sense of Belonging Scale (SBS) integrates theory and items from the social psychological, counseling, psychiatry, and education literatures. The scale was examined for internal consistency and initial evidence of validity across three studies. These will be reported in forthcoming manuscript.
 
-For most purposes, the eight-item SBS, referred to as the SBS-8, should suffice. However, the scale was originally developed to capture four facets of belonging derived from prior work: acceptance, fit, value (Haggerty et al., 1992), and connectedness (Lee & Robbins, 1995). If the population of interest might vary on these facets, then the 16 item scale is recommended. Note, however, that in the initial validation studies with American particiapnts, no conclusive evidence emerged that the factors were differentiable.
+For most purposes, the eight-item SBS, referred to as the SBS-8, should suffice. The scale was originally developed to capture four facets of belonging derived from prior work: acceptance, fit, value (Haggerty et al., 1992), and connectedness (Lee & Robbins, 1995). If the population of interest might vary on these facets, then the 16 item scale is recommended. Note, however, that in the initial validation studies with American participants, no conclusive evidence emerged that the factors were differentiable.
 
-The scale was developed to be adaptable for measuring the sense of belongingness in specific contexts and identities, as well as in general. We refer to forms of the scale as either *global* or *specific*. In addition, the scale can be adapted to measure *state* sense of belonging or *trait* sense of belonging. State belonging is the sense of inclusion that people feel in a recent timeframe, such as the previous week or the last few minutes. Trait belonging refers to the sense of belonging that partcipants feel in general across their lifetime. The combination of these two dimensions yields four potential forms of the scale: *specific-state*, *specific-trait*, *global-state*, and *global-trait*. Information and examples of each form of the scale is presented in subsequent chapters.
+The scale was developed to be adaptable for measuring the sense of belongingness in specific contexts and identities, as well as in general. We refer to forms of the scale as either *global* or *specific*. In addition, the scale can be adapted to measure *state* sense of belonging or *trait* sense of belonging. State belonging is the sense of inclusion that people feel in a recent timeframe, such as the previous week or the last few minutes. Trait belonging refers to the sense of belonging that participants feel in general across their lifetime. The combination of these two dimensions yields four potential forms of the scale: *specific-state*, *specific-trait*, *global-state*, and *global-trait*. Information and examples of each form of the scale are presented in subsequent chapters.
 
 Attribute use of the scale by citing this webpage. When the scale validation paper is published, it will be linked here and that paper can be cited instead.
