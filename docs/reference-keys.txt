@@ -1,9 +1,0 @@
-tab:global-trait-items
-fig:qualtrics-preview-global-trait
-tab:global-state-items
-tab:specific-trait-items
-the-sense-of-belonging-scale
-global-trait
-global-state-form
-specific-trait-form
-specific-state-form
