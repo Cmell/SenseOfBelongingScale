@@ -1,6 +1,6 @@
 # Global-State Form
 
-The items for the global state form of the scale are modified to include the timeframe for the desired measurement. In our validation studies, we asked participants about the past two weeks, as shown in Table \@ref(tab:global-state-items). They were preceeded by these instructions:
+The items for the global state form of the scale are modified to include the timeframe for the desired measurement. In our validation studies, we asked participants about the past two weeks, as shown in Table \@ref(tab:global-state-items). They were preceded by these instructions:
 
 > When you **think about your life at this moment,** to what extent do you feel **a general sense of belonging and fitting in?**
 

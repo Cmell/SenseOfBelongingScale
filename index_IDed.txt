@@ -1,7 +1,11 @@
 --- 
 title: "The Sense of Belonging Scale"
 date: "Updated on `r Sys.Date()`"
-
+author:
+  - "Chris Mellinger"
+  - "Anne Fritzson"
+  - "Bernadette Park"
+  - "Sona Dimidjian"
 site: bookdown::bookdown_site
 link-citations: yes
 ---
@@ -27,3 +31,10 @@ For most purposes, the eight-item SBS, referred to as the SBS-8, should suffice.
 
 The scale was developed to be adaptable for measuring the sense of belongingness in specific contexts and identities, as well as in general. We refer to forms of the scale as either *global* or *specific*. In addition, the scale can be adapted to measure *state* sense of belonging or *trait* sense of belonging. State belonging is the sense of inclusion that people feel in a recent timeframe, such as the previous week or the last few minutes. Trait belonging refers to the sense of belonging that participants feel in general across their lifetime. The combination of these two dimensions yields four potential forms of the scale: *specific-state*, *specific-trait*, *global-state*, and *global-trait*. Information and examples of each form of the scale are presented in subsequent chapters.
 
+## Citation
+
+Attribute use of the scale by citing this webpage. When the scale validation paper is published, it will be linked here and that paper can be cited instead.
+
+In APA, the citation should be:
+
+> Mellinger, C., Fritzson, A., Park, B., &amp; Dimidjian, S. (2022). The Sense of Belonging Scale. Retrieved December 14, 2022, from https://cmell.github.io/SenseOfBelongingScale/ 

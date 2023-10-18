@@ -1,6 +1,6 @@
 # Specific State Form
 
-This form of the scale requires a *specific* identity and a constrained timeframe for the *state* measurement. Both elements can be adapated as necessary.
+This form of the scale requires a *specific* identity and a constrained timeframe for the *state* measurement. Both elements can be adapted as necessary.
 
 > When you think about being a **student at the University of XXX at this moment,** to what extent do you feel a sense of belonging and fitting in?
 
